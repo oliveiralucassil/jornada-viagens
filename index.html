@@ -8,33 +8,52 @@
   </head>
   <body>
     <header>
-      <a href="index.html" title="Voltar para a página inicial">
+      <a class="logo" href="index.html" title="Voltar para a página inicial">
         <img
+          class="img-mobile"
           src="img/bussula-jornada-branca.png"
-          alt="Bussula ao logo Jornada Viagens na cor preta"
+          alt="Bussula ao logo Jornada Viagens na cor branca"
+        />
+        <img
+          class="img-desktop"
+          src="img/bussula-texto-jornada-branco.png"
+          alt="Logo Jornada Viagens na cor branca"
         />
       </a>
-      <img src="img/menu.png" alt="Menu" />
-      <nav>
-        <ul>
-          <li>
-            <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
-          </li>
-          <li>
-            <a
-              href="pacotes.html"
-              target="_blank"
-              title="Acessar Pacotes de Viagem"
-              >Pacotes de viagem</a
-            >
-          </li>
-          <li>
-            <a href="contato.html" target="_blank" title="Acessar Contato"
-              >Contato</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div class="navigation-menu">
+        <label for="menu">
+          <img src="img/menu.png" alt="Menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar Pacotes de Viagem"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a href="contato.html" target="_blank" title="Acessar Contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <section class="hero">
+      <img src="img/hero-mobile.png" alt="" />
+      <h2>
+        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
+        à seleção das atividades, cuidamos de todos os detalhes para que você
+        aproveite ao máximo cada momento da sua jornada!
+      </h2>
+    </section>
   </body>
 </html>
