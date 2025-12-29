@@ -4,7 +4,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 :root {
   --primary-color: #8f0101;
   --secundary-color: #bb1515;
@@ -20,7 +19,6 @@
   --text-weight: 400;
   --menu-text-weight: 500;
 }
-
 /* CSS RESET */
 body,
 img,
@@ -40,6 +38,9 @@ p {
 body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
+}
+.section-page {
+  margin-bottom: 88px;
 }
 .section-title {
   margin-bottom: 32px;
@@ -70,13 +71,11 @@ body {
   box-sizing: border-box;
   line-height: 64px;
 }
-
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--primary-color);
