@@ -17,7 +17,7 @@ header {
   height: 64px;
 }
 
-.img-desktop{
+.img-desktop {
   display: none;
   width: 260px;
   height: 64px;
@@ -73,7 +73,7 @@ nav {
   }
 }
 @media screen and (min-width: 1024px) {
-  header{
+  header {
     padding: 38px 120px;
   }
   .logo {
@@ -86,13 +86,13 @@ nav {
   .img-mobile {
     display: none;
   }
-  .navigation-menu a:hover{
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
 
 @media screen and (min-width: 1920px) {
-  header{
+  header {
     padding: 38px 160px;
   }
 }
