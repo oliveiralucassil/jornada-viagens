@@ -15,10 +15,6 @@
   box-sizing: border-box;
 }
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 .offers-cards .card header p {

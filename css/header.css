@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -7,6 +7,7 @@ header {
   padding: 38px 48px;
   position: relative;
 }
+
 .logo {
   display: inline-block;
 }
@@ -68,7 +69,7 @@ nav {
   }
 }
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
@@ -86,7 +87,7 @@ nav {
   }
 }
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
