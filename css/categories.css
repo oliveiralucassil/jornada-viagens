@@ -22,10 +22,7 @@
 
   display: inline-block;
 }
-.categories-cards .cards h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
+
 .categories-cards .cards.single-line {
   padding-top: 50px;
 }
