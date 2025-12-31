@@ -53,7 +53,7 @@ section {
   margin: 0 auto 32px;
 }
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
@@ -64,6 +64,15 @@ section {
   background-color: var(--primary-color);
   border: none;
   margin: 32px auto 16px;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
 }
 .button {
   min-width: 280px;
@@ -85,9 +94,6 @@ section {
   .section-title {
     width: 100%;
     margin: 0 auto 32px;
-  }
-  .section-title h2 {
-    font-size: 32px;
   }
 }
 @media screen and (min-width: 1024px) {
